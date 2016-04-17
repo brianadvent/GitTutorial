@@ -12,6 +12,7 @@
 		8695815C1CC3C830009D856B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8695815A1CC3C830009D856B /* Main.storyboard */; };
 		8695815E1CC3C830009D856B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8695815D1CC3C830009D856B /* Assets.xcassets */; };
 		869581611CC3C830009D856B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8695815F1CC3C830009D856B /* LaunchScreen.storyboard */; };
+		869581691CC3CB18009D856B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869581681CC3CB18009D856B /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8695815D1CC3C830009D856B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		869581601CC3C830009D856B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		869581621CC3C830009D856B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869581681CC3CB18009D856B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				869581561CC3C830009D856B /* AppDelegate.swift */,
 				869581581CC3C830009D856B /* ViewController.swift */,
+				869581681CC3CB18009D856B /* MapViewController.swift */,
 				8695815A1CC3C830009D856B /* Main.storyboard */,
 				8695815D1CC3C830009D856B /* Assets.xcassets */,
 				8695815F1CC3C830009D856B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				869581591CC3C830009D856B /* ViewController.swift in Sources */,
+				869581691CC3CB18009D856B /* MapViewController.swift in Sources */,
 				869581571CC3C830009D856B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
